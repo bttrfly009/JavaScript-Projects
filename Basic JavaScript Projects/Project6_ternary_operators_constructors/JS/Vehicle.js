@@ -11,7 +11,7 @@ function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML = "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model +
     " manufactured in " + Erik.Vehicle_Year;
 }
-function count_Function() { //Nested
+function count_Function() { //Nested function
     document.getElementById("Counting").innerHTML = Count();
     function Count() {
         var Starting_point = 9
